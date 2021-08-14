@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int netsalary(int totalsalary, int tax)
+{
+	return totalsalary - tax;
+}
+void main()
+{
+	int result = netsalary(5000 , 1000);
+	if (netsalary(5000, 1000) > 5000)
+	{
+		cout << "manager";
+	}
+	else
+	{
+		cout << "employee";
+	}
+}
