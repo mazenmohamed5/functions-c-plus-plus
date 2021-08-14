@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+void fact(int n)
+{
+	int result = 1;
+	for (int i = n; i >=1; i--)
+	{
+		result = result * i;
+	}
+	cout << "result = " << result << endl;
+	
+}
+int main()
+{
+	int y = 0;
+	int y;
+	cin >> y;
+	fact(y);
+	}
+
+
+
