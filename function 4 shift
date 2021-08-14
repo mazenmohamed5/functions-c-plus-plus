@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+void shift(int x, int y)
+{
+	cout << x << endl;
+	cout<< y << endl;
+}
+int main()
+{
+
+	int x, y;
+	cout << "enter the numbers" << endl;
+	cin >> x;
+	cin>> y;
+	cout << "x and y numbers = " << endl;
+	shift(y, x);
+	return 0;
+}
