@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+void execute ( int &B , int C = 100 )
+{
+int temp = b + c ;
+B+=temp;
+if (c == 100)
+cout << temp << B << C ;
+}
+void main ()
+{
+int n=90 , m=10;
+execute(m);
+cout << m << n ;
+execute (m,n);
+cout << m << n;
+}
